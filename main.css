@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: dimgray;
+}
+
+img {
+    height: 50px;
+}
+
+#navigation-bar {
+    background-color: chartreuse;
+}
+
+#navigation-container {    
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#navigation-bar nav {
+    float: right;
+}
+
+#navigation-bar ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    text-align: right;
+}
+
+#navigation-bar li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 17px;
+}
+
+#navigation-bar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 1em sans-serif;
+    color: darkslategray;
+}
